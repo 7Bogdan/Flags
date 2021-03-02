@@ -1,0 +1,110 @@
+.canvas {
+  width: 100%;
+  height: 100%;
+  background: #f8f9fa;
+  display: table;
+}
+
+.Flag {
+  width: 300px;
+  height: 200px;
+  margin: 50px;
+  box-shadow: 10px 10px 5px grey;
+  border: 1px solid grey;
+}
+
+.clear__sky {
+  width: 300px;
+  height: 100px;
+  background: #015bbb;
+}
+
+.wheat__fields {
+  width: 300px;
+  height: 100px;
+  background: #fed52f;
+}
+
+.white__linen {
+  width: 300px;
+  height: 200px;
+  background: #ffffff;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.rising__sun {
+  margin: auto;
+  vertical-align: middle;
+  width: 120px;
+  height: 120px;
+  background: #bc082d;
+  border-radius: 50%;
+}
+
+.blue__sky {
+  width: 300px;
+  height: 200px;
+  background: #02529c;
+}
+
+.fiery__red__cross {
+  background: #dc1e35;
+  margin-left: 10px;
+  height: 200px;
+  width: 20px;
+  position: absolute;
+  z-index: 1;
+}
+
+.fiery__red__cross:after {
+  content: "";
+  background: #dc1e35;
+  height: 20px;
+  width: 300px;
+  margin-left: -95px;
+  margin-top: 100px;
+  position: absolute;
+  z-index: 1;
+}
+
+.snow__white__cross {
+  background: #ffffff;
+  margin-left: 85px;
+  height: 200px;
+  width: 40px;
+  position: absolute;
+  z-index: 0;
+}
+
+.snow__white__cross:after {
+  content: "";
+  background: #ffffff;
+  height: 40px;
+  width: 300px;
+  margin-left: -85px;
+  margin-top: 90px;
+  position: absolute;
+  z-index: 0;
+}
+
+.peace__and__honesty{
+  width: 300px;
+  height: 100px;
+  background: #f6f6f6;
+}
+
+.tenacity__and__dare{
+  width: 300px;
+  height: 100px;
+  background:#d7141a;
+}
+
+.vigilance__and__truthfulness{
+position: absolute;
+width: 0;
+height: 0;
+border-top: 100px solid transparent;
+border-left: 150px solid #10457e;
+border-bottom: 100px solid transparent;
+}
